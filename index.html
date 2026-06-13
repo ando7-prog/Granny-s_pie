@@ -2,59 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Granny's Pies</title>
+
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="recipe.css">
 </head>
 
 <body>
-<header>
-    <h1>Granny's Pies</h1>
-    <p class="tagline">
-        Homemade goodness baked with love since day one.
-    </p>
-</header>
 
-<section>
+    <div class="banner">
+        🥧 Freshly Baked Every Day
+    </div>
 
-    <p>
-        Welcome to Granny's Pies, where every pie is made from
-        traditional family recipes and the finest ingredients.
-    </p>
+    <header>
+        <h1>Granny's Pies</h1>
 
-    <img
-        src="images/pie.JPG"
-        alt="Lemon Meringue Pie"
-        class="hero-image">
+        <p class="tagline">
+            Homemade goodness baked with love since day one.
+        </p>
 
-</section>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pie.html">Recipe</a>
+            <a href="#specialties">Specialties</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<section>
+    <main>
 
-    <h2>Our Specialties</h2>
+        <section class="hero">
 
-    <ul>
-        <li>🍋 Lemon Meringue Pie</li>
-        <li>🍎 Apple Pie</li>
-        <li>🍒 Cherry Pie</li>
-        <li>🍫 Chocolate Cream Pie</li>
-    </ul>
+            <h2>Fresh Homemade Pies</h2>
 
-    <p>
-        Discover our most famous recipe and learn how to bake
-        the perfect lemon meringue pie.
-    </p>
+            <p>
+                Baked daily using traditional family recipes and the finest ingredients.
+            </p>
 
-    <a href="pie.html" class="recipe-link">
-        View Lemon Meringue Pie Recipe
-    </a>
+            <img
+                src="images/pie.JPG"
+                alt="Lemon Meringue Pie"
+                class="hero-image">
 
-</section>
+            <br>
 
-<footer>
-    © 2026 Granny's Pies | Freshly Baked Every Day
-</footer>
+            <a href="pie.html" class="hero-button">
+                View Recipe
+            </a>
+
+        </section>
+
+        <section id="specialties">
+
+            <h2>Our Specialties</h2>
+
+            <div class="pie-cards">
+
+                <div class="card">
+                    <div class="emoji">🍋</div>
+                    <h3>Lemon Meringue Pie</h3>
+                    <p>Our famous signature recipe.</p>
+                </div>
+
+                <div class="card">
+                    <div class="emoji">🍎</div>
+                    <h3>Apple Pie</h3>
+                    <p>Made with fresh apples and cinnamon.</p>
+                </div>
+
+                <div class="card">
+                    <div class="emoji">🍒</div>
+                    <h3>Cherry Pie</h3>
+                    <p>Sweet and tangy cherry filling.</p>
+                </div>
+
+                <div class="card">
+                    <div class="emoji">🍫</div>
+                    <h3>Chocolate Cream Pie</h3>
+                    <p>Rich chocolate flavor in every bite.</p>
+                </div>
+
+            </div>
+
+            <p>
+                Discover our most famous recipe and learn how to bake the perfect lemon meringue pie.
+            </p>
+
+            <a href="pie.html" class="recipe-link">
+                View Lemon Meringue Pie Recipe
+            </a>
+
+        </section>
+
+        <section class="testimonials">
+
+            <h2>What Our Customers Say</h2>
+
+            <blockquote>
+                "The best lemon meringue pie I've ever tasted!"
+            </blockquote>
+
+            <blockquote>
+                "Tastes just like my grandmother used to make."
+            </blockquote>
+
+            <blockquote>
+                "Fresh, delicious, and baked with love."
+            </blockquote>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>📧 orders@grannyspies.com</p>
+
+            <p>📞 (237) 6xx-xxxx</p>
+
+            <p>📍 Granny's Bakery, Pie Street, Sweet Town</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Granny's Pies | Freshly Baked Every Day
+    </footer>
 
 </body>
-
 </html>
